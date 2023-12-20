@@ -1,0 +1,19 @@
+rootProject.name = "NDK_Demo"
+include ':Demo1'
+project(":Demo1").projectDir = file("./Demo1/app")
+include ':Demo2'
+project(":Demo2").projectDir = file("./Demo2/app")
+include ':Demo3'
+project(":Demo3").projectDir = file("./Demo3/app")
+include ':Demo4'
+project(":Demo4").projectDir = file("./Demo4/app")
+include ':Demo5'
+project(":Demo5").projectDir = file("./Demo5/app")
+include ':Demo6'
+project(":Demo6").projectDir = file("./Demo6/app")
+include ':Demo7'
+project(":Demo7").projectDir = file("./Demo7/app")
+include ':Demo8'
+project(":Demo8").projectDir = file("./Demo8/app")
+include ':Demo9'
+project(":Demo9").projectDir = file("./Demo9/app")
