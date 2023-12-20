@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext{
-        agp_gradle = '7.0.3'
+        agp_gradle = '8.1.4'
         kotlin_version = '1.6.20'
         // coroutine
         coroutine_version = "1.6.4"
